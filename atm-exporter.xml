@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>SWAG</projectKey>
+    <exportDate>2022-09-21 19:59:05 UTC</exportDate>
+    <folders>
+        <folder fullPath="Login" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="33944724" key="SWAG-T5">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Lorena Queiroz</createdBy>
+            <createdOn>2022-09-21 14:53:47 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[SWAG-T1 1.0 Cliente sem cadastro deseja criar uma conta]]></name>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="34130067" key="SWAG-T6" paramType="PARAMETER">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Lorena Queiroz</createdBy>
+            <createdOn>2022-09-21 18:33:33 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro tenta fazer login]]></name>
+            <owner>70121:038fa1c3-b9c4-4444-9c2e-84648ca906d8</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters>
+                <parameter index="0">
+                    <defaultValue><![CDATA[172.17.25.54]]></defaultValue>
+                    <name><![CDATA[Servidor QA]]></name>
+                </parameter>
+            </parameters>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar url x&nbsp;]]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve visualizar tela de login]]></expectedResult>
+                        <testData><![CDATA[Servidor QA]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita username no campo 'username']]></description>
+                        <expectedResult><![CDATA[Deve retornar que o usu&aacute;rio n&atilde;o est&aacute; cadastrado]]></expectedResult>
+                        <testData><![CDATA['Lorena']]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="34130356" key="SWAG-T7">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Lorena Queiroz</createdBy>
+            <createdOn>2022-09-21 18:59:25 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Funcionalidade de login]]></name>
+            <owner>70121:038fa1c3-b9c4-4444-9c2e-84648ca906d8</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="plain">
+                <details><![CDATA[<ol><li>Cliente sem cadastro deseja criar conta</li><li>Cliente sem cadastro tenta fazer login</li><li>Cliente com cadastro informa dados incorretos de acesso</li></ol>]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
