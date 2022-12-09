@@ -7,7 +7,7 @@
 ★ A documentação sugerida no desafio de projeto será entregue a partir de um
 repositório pessoal de cada aluno no Github.
 
-★ A seguinte documentação deverá ser anexada em PDF:
+⭐ A seguinte documentação deverá ser anexada em PDF: ⭐
 
 🔵 Um plano de fluxo de trabalho de desenvolvido e do ciclo de vida do
 bug conforme explicado; </br>
